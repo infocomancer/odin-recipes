@@ -1,0 +1,1 @@
+This is a fairly basic website hosting some recipes. It has allowed me to practice basic HTML markups, handling headers, paragraphs, images, links and some text styling. It has also provided me with some more practice with HTML boilerplate and Git, as well as GitHub.
