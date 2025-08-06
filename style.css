@@ -1,0 +1,58 @@
+body {
+    background-color: rgba(224, 164, 85, 0.801);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.left {
+    grid-column: 1;
+    width: 800px;
+    margin-right: auto;
+    margin-left: 40px;
+    padding-bottom: 8px;
+}
+
+.right {
+    grid-column: 2;
+}
+
+h1 {
+    width: fit-content;
+    border: orange 5px;
+    border-style: groove;
+    padding: 8px 16px;
+    margin-left: 60px;
+    font-size: 48px;
+    font-family: fantasy;
+    background-color: rgb(211, 151, 39);
+}
+
+h2 {
+    font-size: 34px;
+}
+
+.recipe-index {
+    margin-left: 40px;
+}
+
+.recipe-index li{
+    margin: 4px;
+    margin-left: 0px;
+    font-size: 24px;
+    width: fit-content;
+    border: 5px black double;
+    font-family: fantasy;
+    padding: 8px;
+}
+
+p {
+    font-size: 24px;
+    font-family: fantasy;
+}
+
+ul, ol {
+    font-size: 24px;
+}
